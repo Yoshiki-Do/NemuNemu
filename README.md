@@ -66,6 +66,23 @@ The application was developed as a project to practice Android application devel
 * Git
 * GitHub
 
+## Screenshots
+
+### Home
+![Home Screen](images/home.png)
+
+### Sleep Record
+![Sleep Record](images/sleep-record.png)
+
+### Optimal Sleep Duration
+![Optimal Sleep Duration](images/optimal-sleep.png)
+
+### History
+![History](images/history.png)
+
+### Account
+![Account](images/account.png)
+
 ## Project Structure
 
 ```text
