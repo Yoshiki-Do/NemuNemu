@@ -69,19 +69,19 @@ The application was developed as a project to practice Android application devel
 ## Screenshots
 
 ### Home
-![Home Screen](images/home.png)
+<img src="images/home.png" width="250">
 
 ### Sleep Record
-![Sleep Record](images/sleep-record.png)
+<img src="images/sleep-record.png" width="250">
 
 ### Optimal Sleep Duration
-![Optimal Sleep Duration](images/optimal-sleep.png)
+<img src="images/optimal-sleep.png" width="250">
 
 ### History
-![History](images/history.png)
+<img src="images/history.png" width="250">
 
 ### Account
-![Account](images/account.png)
+<img src="images/account.png" width="250">
 
 ## Project Structure
 
