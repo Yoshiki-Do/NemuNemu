@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".SleepRecordActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary_variant"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/font_color" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="600dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/dateSelectLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/date_select"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="TextView"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/font_size" />
+
+        <Button
+            android:id="@+id/dateSelectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_color"
+            android:text="@string/select" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sleepTimeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:text="@string/sleep_time"
+                android:textColor="@color/font_color" />
+
+            <Spinner
+                android:id="@+id/sleepHourSpinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/hours" />
+
+            <Spinner
+                android:id="@+id/sleepMinuteSpinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/minutes" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/wakeTimeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:text="@string/wake_time"
+                android:textColor="@color/font_color" />
+
+            <Spinner
+                android:id="@+id/wakeHourSpinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/hours" />
+
+            <Spinner
+                android:id="@+id/wakeMinuteSpinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/minutes" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/recordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_color"
+            android:text="@string/record"
+            android:textSize="@dimen/font_size" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

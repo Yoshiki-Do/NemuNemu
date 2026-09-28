@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">NemuNemu</string>
+    <string name="start_button">TAP to START</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="register">REGISTER</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="sleep_record">SLEEP RECORD</string>
+    <string name="history">HISTORY</string>
+    <string name="optimal_sleep_duration">OPTIMAL SLEEP DURATION</string>
+    <string name="account">ACCOUNT</string>
+    <string name="confirm_text">Is this correct?</string>
+    <string name="no_name">No Name</string>
+    <string name="delete_account">DELETE ACCOUNT</string>
+    <string name="delete_account_confirmation">Are you sure you want to delete this account?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="delete">DELETE</string>
+    <string name="save">SAVE</string>
+    <string name="date_select">Date Select</string>
+    <string name="select">SELECT</string>
+    <string name="sleep_time">Sleep Time</string>
+    <string name="wake_time">Wake Time</string>
+    <string name="record">RECORD</string>
+    <string name="score">SCORE: 0</string>
+    <string name="back">BACK</string>
+
+
+
+    <string-array name="optimal_sleep_duration">
+        <item>3.0 hours</item>
+        <item>3.5 hours</item>
+        <item>4.0 hours</item>
+        <item>4.5 hours</item>
+        <item>5.0 hours</item>
+        <item>5.5 hours</item>
+        <item>6.0 hours</item>
+        <item>6.5 hours</item>
+        <item>7.0 hours</item>
+        <item>7.5 hours</item>
+        <item>8.0 hours</item>
+        <item>8.5 hours</item>
+        <item>9.0 hours</item>
+        <item>9.5 hours</item>
+        <item>10.0 hours</item>
+    </string-array>
+    <string-array name="hours">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="minutes">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+    </string-array>
+
+</resources>
